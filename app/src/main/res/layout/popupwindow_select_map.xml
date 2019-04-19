@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/pop_select_map"
+        android:gravity="center"
+        android:text="请选择初始点坐标"
+        android:textColor="@color/white"
+        android:textSize="16dp" />-->
+
+    <net.yoojia.imagemap.ImageMap1
+        android:id="@+id/pop_select_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/pop_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_toolbar_bg"
+                android:clickable="true"
+                android:padding="5dp"
+                android:text="取消"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/pop_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_toolbar_bg"
+                android:clickable="true"
+                android:padding="5dp"
+                android:text="确定"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.xhf.hw.ui.view.PieView
+        android:id="@+id/select_pv"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        app:arrowBranchLength="8dp"
+        app:arrowLocation="15dp"
+        app:defaultColor="#FF414649"
+        app:dividerColor="#FFFFFFFF"
+        app:gapWidth="1dp"
+        app:pressedColor="#FF2F3234" />
+
+</RelativeLayout>

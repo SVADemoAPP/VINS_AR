@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PieView">
+        <attr name="dividerColor" format="color"/>
+        <attr name="defaultColor" format="color"/>
+        <attr name="pressedColor" format="color"/>
+        <attr name="gapWidth" format="dimension"/>
+        <attr name="arrowLocation" format="dimension"/>
+        <attr name="arrowBranchLength" format="dimension"/>
+    </declare-styleable>
+
+</resources>

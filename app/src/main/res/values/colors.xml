@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3e3d41</color>
+    <color name="red">#FF0000</color>
+    <color name="colorPrimaryDark">#3e3d41</color>
+    <color name="colorAccent">#09bb07</color>
+
+    <color name="home_text_color">#00eefd</color>
+    <color name="group_text_color">#223f5c</color>
+    <color name="home_top_bg_color">#040a0e</color>
+    <color name="transparent_pop_color">#99000000</color>
+    <color name="tool_bg">#3e3d41</color>
+    <color name="white">#ffff</color>
+    <color name="search_bg">#efeff4</color>
+    <color name="ll_press">#E5E5E9</color>
+    <color name="search_text">#FFBBB9B9</color>
+    <color name="level1">#09bb07</color>
+    <color name="black">#000000</color>
+    <color name="line_bg">#B7B9B9</color>
+    <color name="search_pop_text">#666666</color>
+    <color name="transport_pop">#BA000000</color>
+    <color name="line_gray2">#5c5b5b</color>
+    <color name="colorPrimary_Dark">#2E2D30</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>
